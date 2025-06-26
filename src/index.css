@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Space Mono", monospace;
+    background-color: black;   
+    user-select: none;
+}
+
+body{
+  font-size: 1.4rem;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+.heading{
+  margin-top: 3em;
+}
+
+.range-selection-container{
+  margin: 1rem 0;
+}
+
+.custom-range{
+  width: 150px;
+  color: white;
+  accent-color: #444444;
+}
+
+.selection-container{
+  font-size: large;
+}
+
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: xx-large;
+  }
+
+}
+
+
+@media screen and (max-width: 700px) {
+  body{
+    font-size: 1em;
+  }
+
+  .heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    width: 55%;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+
+  .input-container{
+    width: 50%;
+  }
+
+  .pass-input-field{
+    width: 75%;
+  }
+
+  body{
+    font-size: 1.2rem;
+  };
+}
+
+@media screen and (max-width: 400px) {
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .selection-container{
+    font-size: 1.1rem;
+  }
+
+  .heading{
+    width: 75%;
+  }
+
+  .input-container{
+    width: 65%;
+  }
+
+  .pass-input-field{
+    width: 65%;
+  }
+
+  .custom-range{
+    width: 100px;
+  }
+
+}
+
