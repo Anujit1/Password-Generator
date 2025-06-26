@@ -77,7 +77,7 @@ function App() {
 
         {/*heading text*/}
         <div className="heading  w-2/5 min-w-fit border-b-2 border-white border-dashed mb-9 flex justify-center items-center"> 
-          <h1 className=' text-white m-2'>Password Generator</h1>
+          <h1 className=' text-white m-2 mb-6 max-sm:mb-2'>Password Generator</h1>
         </div>
     
 
@@ -115,7 +115,7 @@ function App() {
         </div>
 
         {/*selection box*/}
-        <div className="selection-container m-4 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-8 max-sm:gap-y-4 text-white text-base">
+        <div className="selection-container m-4 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-8 max-sm:gap-y-4 justify-evenly text-white text-base">
 
           {/**for uppercase */}
           <label className="flex items-center gap-2">
