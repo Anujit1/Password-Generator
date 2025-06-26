@@ -1,2 +1,2 @@
 # Password Wizard
-A password generator tool.
+A Password Generator tool.
